@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    min-width: 900px;
+}
+
+.title {
+    font-size: 4rem;
+    padding: 4rem 2rem;
+    margin: 1rem;
+    background-image: linear-gradient(yellow 100%, yellow 100%);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: 0 7rem;
+    width: 700px;
+}
+
+.content-cover {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-image {
+    width: 30%;
+    height: 600px;
+    background-image: url(./images/author_vaishnavi.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -3rem;
+    margin: 0 0 0 auto;
+    z-index: -10;
+}
+
+.poem {
+    width: 600px;
+    margin: auto auto;
+    line-height: 2rem;
+}
+
+.poem p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.poem .author-handle {
+    margin-top: 3rem;
+    text-align: right;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.thin {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.hl {
+    background: yellow;
+}
